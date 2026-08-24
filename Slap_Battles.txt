@@ -8,7 +8,7 @@ end
 if getgenv().LoadingScriptSlap then return end
 getgenv().LoadingScriptSlap = true
 pcall(function()
-Fixed = loadstring(game:HttpGet("https://raw.githubusercontent.com/Articles-Hub/ROBLOXScript/refs/heads/main/SCRIPT/Fix.lua"))()
+Fixed = loadstring(game:HttpGet("https://raw.githubusercontent.com/granolabarlover06/Slap-battles-/refs/heads/main/Fix.lua.txt"))()
 fireclickdetector = fireclickdetector or Fixed.fireclickdetector
 fireproximityprompt = fireproximityprompt or Fixed.fireproximityprompt
 end)
@@ -2487,7 +2487,7 @@ local Script1Group = Tabs.Tab1:AddLeftGroupbox("Script Basic")
 Script1Group:AddButton({
     Text = "Execute | Ui Library",
     Func = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Articles-Hub/ROBLOXScript/refs/heads/main/SCRIPT/Executor.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/granolabarlover06/Slap-battles-/refs/heads/main/Executor.lua.txt"))()
     end
 })
 
@@ -2517,7 +2517,7 @@ local Script2Group = Tabs.Tab1:AddRightGroupbox("Script")
 Script2Group:AddButton({
     Text = "Position Gui",
     Func = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Articles-Hub/ROBLOXScript/refs/heads/main/SCRIPT/Position.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/granolabarlover06/Slap-battles-/refs/heads/main/Position.lua.txt"))()
     end
 })
 
