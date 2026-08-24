@@ -51,7 +51,7 @@ local Options = Library.Options
 local Toggles = Library.Toggles
 
 local Loading = Library:CreateLoading({
-    Title = "Azusa Article Hub",
+    Title = "Granolabar Hub",
     Icon = 83462777349222,
     TotalSteps = 5
 })
@@ -2052,7 +2052,7 @@ Loading:SetDescription("Really!")
 task.wait(1)
 Loading:Continue()
 Window = Library:CreateWindow({
-	Footer = "Azusa Article Hub Version: 2.0.3",
+	Footer = "Granola Hub Version: 2.0.3",
 	Icon = 83462777349222,
     NotifySide = "Right",
     MenuFadeTime = 0,
@@ -2061,7 +2061,7 @@ Window = Library:CreateWindow({
     BackgroundImage = "rbxassetid://94107130237217",
     DynamicIsland = true,
     DynamicIslandAsset = 83462777349222,
-    DynamicIslandText = "Azusa Article Hub",
+    DynamicIslandText = "GranolabarHub",
     DynamicIslandClosedText = "Open UI",
     DynamicIslandOpenText = "Close UI",
     DynamicIslandTopOffset = 12,
